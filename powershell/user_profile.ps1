@@ -10,5 +10,11 @@ oh-my-posh --init --shell pwsh --config $omp_config | Invoke-Expression
 
 Enable-PoshTransientPrompt
 
+Set-PSReadLineOption -predictionSource History
+Set-PSReadLineOption -predictionViewStyle ListView
+
+Set-PSFsfOption -PSReadLineChordProvider 'Ctrl+f' -PSReadLineChordReverseHisotry 'Ctrl+r'
+
+
 #Alias
 Set-Alias vim nvim
