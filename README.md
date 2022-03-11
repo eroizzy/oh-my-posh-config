@@ -61,6 +61,7 @@ and write this in the file
  - [Nerd Fonts](https://www.nerdfonts.com/)
  - [How to set up PowerShell prompt with Oh My Posh on Windows 11 - Takuya Matsuyama](https://www.youtube.com/watch?v=5-aK2_WwrmM)
  - [My Ultimate PowerShell prompt with Oh My Posh and the Windows Terminal](https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal)
+ 
  This would not have been possible without the work from the follow:
 - [@JanDeDobbeleer](https://github.com/JanDeDobbeleer)
 - [@Takuya Matsuyama](https://github.com/craftzdog)
