@@ -13,7 +13,7 @@ Enable-PoshTransientPrompt
 Set-PSReadLineOption -predictionSource History
 Set-PSReadLineOption -predictionViewStyle ListView
 
-Set-PSFsfOption -PSReadLineChordProvider 'Ctrl+f' -PSReadLineChordReverseHisotry 'Ctrl+r'
+Set-PSFzfOption -PSReadLineChordProvider 'Ctrl+f' -PSReadLineChordReverseHisotry 'Ctrl+r'
 
 
 #Alias
