@@ -3,22 +3,27 @@
 
 This repo was made to store my changes and also to share with the community if interested.
 
-
 ## Requirements
 
 * Install any Nerd font to use with oh-my-posh. [Nerd Fonts](https://www.nerdfonts.com/)
 * Install Windows Terminal from the Microsoft Store. [Windows Terminal](https://www.microsoft.com/store/productId/9N0DX20HK701)
 * Install Powershell from the Microsoft Store. [Powershell](https://www.microsoft.com/store/productId/9MZ1SNWT0N5D)
+
 ## Setup
 
 1. Set Windows Terminal to be default terminal application in Windows Terminal settings.
 2. Make the Powershell you installed be the default profile for Windows Terminal.
 3. Go to Appearance settings and enable "Show acrylic in tab row (requires relaunch)
 4. Restart Windows Terminal and Modify the default profile to use the font you installed and enable "Acrylic"
-5. TODO - Install Scoop
+5. Install Scoop
+```bash
+iwr -user get.scoop.sh | iex
+```
+
 ## Installation
 
 We need to install the posh modules. Run the following commands:
+
 ```bash
 Install-Module posh-git -Scope CurrentUser -Force
 Install-Module oh-my-posh -Scope CurrentUser -Force
@@ -39,16 +44,16 @@ Now we need to copy over the repo files into this folder. Once copied, we need t
 ```bash
 vim $PROFILE.CurrentUserCurrentHost
 ```
+
 and write this in the file
+
 ```
-$env:USERPROFILE\.config\powershell\user_profile.ps1
+. $env:USERPROFILE\.config\powershell\user_profile.ps1
 ```
 
-    
 ## Author
 
 - [@EroIzzy](https://github.com/eroizzy)
-
 
 ## Acknowledgements
  - [oh-my-posh Repo](https://github.com/JanDeDobbeleer/oh-my-posh)
