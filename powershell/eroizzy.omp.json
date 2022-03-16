@@ -27,10 +27,10 @@
 					"trailing_diamond": "\ue0b4",
 					"properties": {
 						"folder_icon": "<#B5B2C2>\ue5fe </>",
-						"folder_separator_icon": " <#44007c,transparent>\ue0b0</><transparent,#44007c>\ue0b0 </> ",
+						"folder_separator_icon": "<#44007c,transparent>\ue0b0</><transparent,#44007c>\ue0b0</> ",
 						"home_icon": "\uf7db ",
 						"style": "agnoster_full",
-						"template": "<#ffffff> \ue5ff </>{{ .Path }}"
+						"template": "<#ffffff> \ue5ff </>{{ .Path }} "
 					  },
 					"style": "diamond",
 					"type": "path"
