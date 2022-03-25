@@ -17,7 +17,7 @@ This repo was made to store my changes and also to share with the community if i
 4. Restart Windows Terminal and Modify the default profile to use the font you installed and enable "Acrylic"
 5. Install Scoop
 ```bash
-iwr -user get.scoop.sh | iex
+iwr -useb get.scoop.sh | iex
 ```
 
 ## Installation
