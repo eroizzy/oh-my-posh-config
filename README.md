@@ -19,7 +19,7 @@ This repo was made to store my changes and also to share with the community if i
 ```bash
 iwr -useb get.scoop.sh | iex
 ```
-
+6. Install OhMyPosh ([https://ohmyposh.dev/docs/installation/windows])
 ## Installation
 
 We need to install the posh modules. Run the following commands:
